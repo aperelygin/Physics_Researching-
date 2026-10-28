@@ -86,10 +86,10 @@ length = int(input("Введите длину текста в словах: "))
 text = read_file(filename)
 words = get_words(text)
 
-print("\nЦепочка по 2 слова")
+print("\nЦепочка по 2 слова:")
 chain_2 = make_chain(words, 2)
 print(generate_text(chain_2, words, 2, length))
 
-print("\nЦепочка по 3 слова")
+print("\nЦепочка по 3 слова:")
 chain_3 = make_chain(words, 3)
 print(generate_text(chain_3, words, 3, length))
